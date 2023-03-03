@@ -1,0 +1,5 @@
+mw = float(input("What is the molecular weight? (g/mol)"))
+m = float(input("What is the desired concentration? (mM)"))
+a = float(input("How much compound do you have? (mg)"))
+v = a/(mw*m)
+print(v*100000)
